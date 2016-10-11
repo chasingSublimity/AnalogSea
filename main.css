@@ -1,0 +1,18 @@
+* {
+	font-family: "Roboto";
+}
+
+body {
+	background-color: #298eea;
+}
+
+header {
+	width: 100%;
+}
+
+#logo {
+	display: block;
+	height: 35px;
+	margin: auto;
+	padding-top: 52px;
+}
