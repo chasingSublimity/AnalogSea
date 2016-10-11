@@ -102,9 +102,38 @@ a.forgot-password {
 	color: #999;
 	font-size: 14px;
     text-decoration;
-    top: 67px;
+    top: 86px;
 }
 
 a.forgot-password:hover {
 	color: #67696b;
+}
+
+footer {
+	width: 100%;
+	margin: auto;
+	display: block;
+	position: relative;
+	color: white;
+	font-weight: bold;
+	top: 50px;
+}
+
+p {
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+	font-weight: bold;
+}
+
+.login-link {
+	margin: auto;
+	display: inline;
+	position: relative;
+	color: white;
+	font-weight: bold;
+}
+
+.login-link:hover {
+	color: #dcdfe5;
 }
