@@ -11,16 +11,21 @@
 			<img src="logo.png" ID="logo">
 	</header>
 	<main>
-		<form>
+		<form action="/sign-up/" method="post">
 			<h2 ID="form-title">Sign Up</h2>
 			<div>
 				<label for="email">Email</label><br>
-					<input type="email" name="email" ID="email" placeholder="foo@bar.com">
+					<input type="email" name="email" ID="email" placeholder="foo@bar.com" required>
 				<label for="password">Password</label><br>
-					<input name="password" name="password" ID="password" placeholder="1234passw0rd">
+					<input name="password" name="password" ID="password" placeholder="1234passw0rd" required>
+				<button type='submit' ID="submit-button">Sign up</button>
 			</div>
+			<p><a href="/forgot-password/new" class="forgot-password">Forgot password?</a></p>
 
 		</form>
 	</main>
 </body>
 </html>
+
+
+
