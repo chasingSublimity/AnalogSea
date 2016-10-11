@@ -1,5 +1,5 @@
 * {
-	font-family: "Roboto";
+	font-family: "Roboto", helvetica, sans-serif;
 }
 
 body {
@@ -32,4 +32,12 @@ form {
 	padding: 0px 40px 0px 40px;
 	top: 30px;
 	
+}
+
+#form-title {
+	display: block;
+	font-size: 35px;
+	color: #565656;
+	margin-top: 0px;
+	text-align: center;
 }
