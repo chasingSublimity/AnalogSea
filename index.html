@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>AnalogSea Login</title>
-	<meta name="description" content="Login Page for AnalogSea, a cloud-based computing system.">
+	<title>AnalogSea Signup</title>
+	<meta name="description" content="SignUp Page for AnalogSea, a cloud-based computing system.">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
@@ -11,16 +11,23 @@
 			<img src="logo.png" ID="logo">
 	</header>
 	<main>
-		<form>
+		<form action="/sign-up/" method="post">
 			<h2 ID="form-title">Sign Up</h2>
 			<div>
 				<label for="email">Email</label><br>
-					<input type="email" name="email" ID="email" placeholder="foo@bar.com">
+					<input type="email" name="email" ID="email" placeholder="foo@bar.com" required>
 				<label for="password">Password</label><br>
-					<input name="password" name="password" ID="password" placeholder="1234passw0rd">
+					<input name="password" name="password" ID="password" placeholder="1234passw0rd" required>
+				<button type='submit' ID="submit-button">Sign up</button>
 			</div>
-
+			<p><a href="https://thinkful-ed.github.io/forgot_password/new" class="forgot-password">Forgot password?</a></p>
 		</form>
 	</main>
+	<footer>
+		<p>Already have an account? <a href="https://thinkful-ed.github.io/login" class="login-link">Log in</a></p>
+	</footer>
 </body>
 </html>
+
+
+
