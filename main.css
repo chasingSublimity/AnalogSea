@@ -16,3 +16,20 @@ header {
 	margin: auto;
 	padding-top: 52px;
 }
+
+main {
+	width: 100%;
+}
+
+form {
+	display: block;
+	position: relative;
+	background-color: white;
+	border-radius: 3px;
+	margin: auto;
+	width: 320px;
+	height: 471px;
+	padding: 0px 40px 0px 40px;
+	top: 30px;
+	
+}
